@@ -259,7 +259,8 @@ h4 {
 }
 
 /* MOBILE */
-.overlay {
+
+.overlay{
   position: fixed;
   top: 0;
   left: 0;
@@ -267,50 +268,50 @@ h4 {
   height: 100%;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+  transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
   background: black;
-  z-index:-100;
+  z-index: -1;
 }
 
 #main-menu {
-  display: block;
-  height: 100px;
-  width: 100%;
-  background: #3d0e61;
-  margin: 0px;
-  z-index: 9;
+display: block;
+height: 100px;
+width: 100%;
+background: #3D0E61;
+margin: 0px;  
+z-index: 9;
 }
 
 #main-menu ul {
-  max-width: 800px;
-  width: 100%;
-  height: 100%;
-  margin: 0px auto;
-  padding: 0px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 9;
+max-width: 800px;
+width: 100%;
+height: 100%;
+margin: 0px auto;
+padding: 0px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+z-index: 9;
 }
 
 #main-menu li {
-  list-style-type: none;
-  font-size: 2rem;
+list-style-type: none;
+font-size: 2rem;
 }
 
 #main-menu a {
-  color: #b9faf8;
-  font-size: 1.5rem;
-  text-decoration: none;
+color: #B9FAF8;
+font-size: 1.5rem;
+text-decoration: none;
 }
 
 #main-menu a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
-#hamburger-input {
-  display: none;
+#hamburger-input{
+display: none;
 }
 
 #hamburger-menu {
@@ -319,24 +320,18 @@ h4 {
   right: 20px;
   width: 50px;
   height: 50px;
-  border-radius: 5%;
   display: none;
   border: none;
   padding: 0px;
   margin: 0px;
-  font-family: "Cabin", Sans-serif;
+  font-family: 'Cabin', Sans-serif;
   background: linear-gradient(
-    to bottom,
-    #3d0e61,
-    #3d0e61 20%,
-    white 20%,
-    white 40%,
-    #3d0e61 40%,
-    #3d0e61 60%,
-    white 60%,
-    white 80%,
-    #3d0e61 80%,
-    #3d0e61 100%
+    to bottom, 
+    #3D0E61, #3D0E61 20%, 
+    white 20%, white 40%, 
+    #3D0E61 40%, #3D0E61 60%, 
+    white 60%, white 80%, 
+    #3D0E61 80%, #3D0E61 100%
   );
 }
 
@@ -347,52 +342,64 @@ h4 {
   left: -250px;
   width: 200px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.266);
+  background-color: #3D0E61;
   transition: 0.3s;
   padding: 0px 10px;
   box-sizing: border-box;
-
 }
 
 #hamburger-menu h3 {
-  color: #ffffff;
-  font-size: 2.2rem;
+color: #B9FAF8;
+font-size: 2.2rem;
 }
 
 #hamburger-menu ul {
-  padding-left: 0px;
-  display: block;
+padding-left: 0px;
 }
 
 #hamburger-menu li {
-  list-style-type: none;
-  line-height: 3rem;
+list-style-type: none;
+line-height: 3rem;
 }
 
 #hamburger-menu a {
-  color: #b9faf8;
-  font-size: 1.3rem;
-  text-decoration: none;
+color: #B9FAF8;
+font-size: 1.3rem;
+text-decoration: none;
 }
 
 #hamburger-menu a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 #hamburger-input:checked + #hamburger-menu #sidebar-menu {
   visibility: visible;
   left: 0;
 }
-#hamburger-input:checked ~ .overlay {
-  visibility: visible;
-  opacity: 0.4;
+#hamburger-input:checked ~ .overlay{
+ visibility: visible;
+opacity: 0.4;
+}
+
+
+@media screen and (max-width: 750px) {
+#main-menu {
+  display: none;
+}
+#hamburger-menu {
+  display: block;
+}
 }
 /* BUTTON */
 .home-content .btn-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 945px;
   height: 150px;
+}
+.btn-flex{
+  display: flex;
+  justify-content: space-around;
 }
 .btn-box a {
   position: relative;
@@ -513,7 +520,7 @@ h4 {
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: #1d00d8;
+  background-color: #1d00d875;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -524,10 +531,10 @@ h4 {
 }
 
 .bar.front::before{
-  background-color: #1d00d8;
+  background-color: #1d00d875;
 }
 .bar.back::before{
-  background-color:#1d00d8;
+  background-color:#1d00d875;
 }
 
 .bar.learning::before{
@@ -547,9 +554,7 @@ h4 {
 }
 
 @media screen and (max-width: 750px) {
-  #hamburger-menu {
-    display: inline;
-  }
+ 
   .hover-underline-animation {
     display: none;
   }
@@ -573,6 +578,7 @@ h4 {
   }
   .card{
     display: block;
+    justify-content: center;
     
   }
   .glass{
