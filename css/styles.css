@@ -193,6 +193,9 @@ nav li div p:hover {
 }
 
 /* MAIN */
+main{
+  z-index: 1;
+}
 main div h1{
   justify-content: center;
   display: flex;
