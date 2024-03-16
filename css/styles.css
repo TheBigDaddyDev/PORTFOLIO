@@ -650,6 +650,10 @@ main div h1{
     display: block;
  
   }
+  #hamburger-menu {
+    display: block;
+    z-index: 1;
+}
   .btn-box a{
     z-index: -1;
   }
