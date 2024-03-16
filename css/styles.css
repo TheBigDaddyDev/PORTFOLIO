@@ -657,9 +657,7 @@ main div h1{
   .btn-box a{
     z-index: -1;
   }
-  footer{
-    z-index: -1;
-  }
+
  
   .hover-underline-animation {
     display: none;
