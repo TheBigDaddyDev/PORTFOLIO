@@ -314,6 +314,7 @@ footer {
   grid-area: footer;
   position: absolute;
   left: 40%;
+  
 }
 footer div {
   display: flex;
@@ -327,10 +328,12 @@ footer div div {
 }
 footer div div i {
   padding: 20px;
+  color: white;
 }
 
 .img-flex {
   display: flex;
+  justify-content: space-around;
 }
 section img {
   display: none;
@@ -480,6 +483,9 @@ main div h1{
 }
 #hamburger-menu {
   display: block;
+}
+footer{
+  left: 5%;
 }
 }
 /* BUTTON */
@@ -916,12 +922,3 @@ main div h1{
   color: #888;
 }
 
-.background span:nth-child(1) {
-  /* color: #E45A84;
-  top: 28%;
-  left: 74%;
-  animation-duration: 80s;
-  animation-delay: -122s;
-  transform-origin: -2vw -2vh;
-  box-shadow: -8vmin 0 1.7037397264139755vmin currentColor; */
-}
