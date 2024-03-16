@@ -316,6 +316,9 @@ footer {
   left: 40%;
   
 }
+.contentstyle{
+  margin-top: 152px;
+}
 footer div {
   display: flex;
   justify-content: space-around;
@@ -651,6 +654,8 @@ footer{
   width: calc(100% - 10px);
 }
 
+
+
 @media screen and (max-width: 750px) {
   nav ul{
     display: block;
@@ -673,9 +678,7 @@ footer{
     justify-content: center;
     align-items: center;
   }
-  div img {
-    display: none;
-  }
+ 
   main div {
     margin-top: 50px;
   }
