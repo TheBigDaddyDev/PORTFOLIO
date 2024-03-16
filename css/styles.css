@@ -782,7 +782,7 @@ footer{
 
 #contact button[type="submit"] {
   cursor: pointer;
-  width: 100%;
+  width: 295px !important;
   border: none;
   background: #4CAF50;
   color: #FFF;
