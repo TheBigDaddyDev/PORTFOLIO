@@ -36,10 +36,11 @@ body {
   top: 0;
   left: 0;
   background: #3E1E68;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-.background span {
+.background .dots {
   width: 4vmin;
   height: 4vmin;
   border-radius: 4vmin;
@@ -52,7 +53,7 @@ body {
 }
 
 
-.background span:nth-child(0) {
+.background .dots:nth-child(0) {
   color: #E45A84;
   top: 35%;
   left: 4%;
@@ -61,7 +62,7 @@ body {
   transform-origin: 10vw -23vh;
   box-shadow: -8vmin 0 1.2179729426191688vmin currentColor;
 }
-.background span:nth-child(1) {
+.background .dots:nth-child(1) {
   color: #E45A84;
   top: 28%;
   left: 74%;
@@ -70,7 +71,7 @@ body {
   transform-origin: -2vw -2vh;
   box-shadow: -8vmin 0 1.7037397264139755vmin currentColor;
 }
-.background span:nth-child(2) {
+.background .dots:nth-child(2) {
   color: #583C87;
   top: 70%;
   left: 35%;
@@ -79,7 +80,7 @@ body {
   transform-origin: -22vw -3vh;
   box-shadow: -8vmin 0 1.7550178336404354vmin currentColor;
 }
-.background span:nth-child(3) {
+.background .dots:nth-child(3) {
   color: #E45A84;
   top: 18%;
   left: 88%;
@@ -88,7 +89,7 @@ body {
   transform-origin: -14vw -18vh;
   box-shadow: 8vmin 0 1.6496917885632567vmin currentColor;
 }
-.background span:nth-child(4) {
+.background .dots:nth-child(4) {
   color: #583C87;
   top: 98%;
   left: 28%;
@@ -97,7 +98,7 @@ body {
   transform-origin: -9vw -4vh;
   box-shadow: 8vmin 0 1.7647803966206501vmin currentColor;
 }
-.background span:nth-child(5) {
+.background .dots:nth-child(5) {
   color: #FFACAC;
   top: 88%;
   left: 82%;
@@ -106,7 +107,7 @@ body {
   transform-origin: -3vw -13vh;
   box-shadow: -8vmin 0 1.966485458842991vmin currentColor;
 }
-.background span:nth-child(6) {
+.background .dots:nth-child(6) {
   color: #FFACAC;
   top: 7%;
   left: 23%;
@@ -115,7 +116,7 @@ body {
   transform-origin: 19vw -13vh;
   box-shadow: -8vmin 0 1.029893384369113vmin currentColor;
 }
-.background span:nth-child(7) {
+.background .dots:nth-child(7) {
   color: #E45A84;
   top: 75%;
   left: 96%;
@@ -124,7 +125,7 @@ body {
   transform-origin: 16vw -5vh;
   box-shadow: -8vmin 0 1.571766632869301vmin currentColor;
 }
-.background span:nth-child(8) {
+.background .dots:nth-child(8) {
   color: #FFACAC;
   top: 15%;
   left: 79%;
@@ -133,7 +134,7 @@ body {
   transform-origin: 10vw 10vh;
   box-shadow: -8vmin 0 1.6105374711891323vmin currentColor;
 }
-.background span:nth-child(9) {
+.background .dots:nth-child(9) {
   color: #583C87;
   top: 50%;
   left: 53%;
@@ -142,7 +143,7 @@ body {
   transform-origin: 23vw 25vh;
   box-shadow: 8vmin 0 1.2721934687158165vmin currentColor;
 }
-.background span:nth-child(10) {
+.background .dots:nth-child(10) {
   color: #E45A84;
   top: 94%;
   left: 77%;
@@ -151,7 +152,7 @@ body {
   transform-origin: 5vw 0vh;
   box-shadow: -8vmin 0 1.073763842644444vmin currentColor;
 }
-.background span:nth-child(11) {
+.background .dots:nth-child(11) {
   color: #583C87;
   top: 19%;
   left: 60%;
@@ -160,7 +161,7 @@ body {
   transform-origin: -4vw 16vh;
   box-shadow: -8vmin 0 1.8396841870688578vmin currentColor;
 }
-.background span:nth-child(12) {
+.background .dots:nth-child(12) {
   color: #E45A84;
   top: 17%;
   left: 100%;
@@ -903,4 +904,14 @@ main div h1{
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+.background span:nth-child(1) {
+  /* color: #E45A84;
+  top: 28%;
+  left: 74%;
+  animation-duration: 80s;
+  animation-delay: -122s;
+  transform-origin: -2vw -2vh;
+  box-shadow: -8vmin 0 1.7037397264139755vmin currentColor; */
 }
