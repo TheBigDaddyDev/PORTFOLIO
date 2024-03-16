@@ -11,7 +11,9 @@
 
 /* BACGROUND */
 body {
+  
   margin: auto;
+  overflow-x: visible;
   background: linear-gradient(var(--linear));
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
@@ -276,7 +278,8 @@ nav li div p:hover {
 
 /* MAIN */
 main{
-  z-index: -1;
+  z-index: -100 !important
+  ;
 }
 main div h1 {
   justify-content: center;
@@ -310,7 +313,6 @@ footer {
   grid-area: footer;
   position: absolute;
   left: 40%;
-  bottom: 10px;
 }
 footer div {
   display: flex;
@@ -568,7 +570,7 @@ main div h1{
 }
 .project-languages{
   font-size: 10px;
-  color: rgba(121, 121, 120, 0.761);
+  color: rgb(218, 218, 217);
 }
 
 .skillbar{
