@@ -278,6 +278,15 @@ nav li div p:hover {
 }
 
 /* MAIN */
+.active-lg{
+  color: #ffffff;
+ }
+.active{
+ background-color: #00abf0;
+}
+.inactive-lg{
+  color: #e2e2e2cd;
+ }
 main{
   z-index: -100 !important
   ;
