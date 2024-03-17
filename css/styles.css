@@ -977,3 +977,7 @@ footer{
 .padding-report{
   padding: 25px;
 }
+
+main{
+    z-index: -100;
+}
