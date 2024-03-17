@@ -981,3 +981,6 @@ footer{
 main{
     z-index: -100;
 }
+.imagewidth{
+  width: 85%;
+}
