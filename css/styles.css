@@ -483,9 +483,20 @@ text-decoration: underline;
  visibility: visible;
 opacity: 0.4;
 }
-
+.validate-image{
+  display: flex;
+}
+.validate-text{
+  font-size: 8px;
+}
 
 @media screen and (max-width: 750px) {
+  .validate-image{
+    display: block;
+}
+.validate-text{
+    font-size: 8px;
+}
   .video{
     display: block;
     color: #ffffff;
