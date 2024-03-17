@@ -946,8 +946,7 @@ footer{
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.7px);
   width: 500px;
-  height: 250px;
-  margin: 3px;
+  margin: auto;
   -webkit-backdrop-filter: blur(2.7px);
   border: 1px solid rgba(255, 255, 255, 0.21);
 }
