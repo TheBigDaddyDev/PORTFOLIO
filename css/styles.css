@@ -950,3 +950,11 @@ footer{
   -webkit-backdrop-filter: blur(2.7px);
   border: 1px solid rgba(255, 255, 255, 0.21);
 }
+.watch{
+  text-decoration: none;
+  border-color: #00abf0;
+  border-radius: 6px;
+}
+.padding-report{
+  padding: 25px;
+}
